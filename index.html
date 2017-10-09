@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ 
+    <title>Portfolio</title>
+    
+     <!-- Normalize css-->
+    
+    <link rel="stylesheet" href="Normalize/normalize.css">
+    
+     <!--  Scale 100% on devices  -->
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!--Main css style -->
+    
+    <link rel="stylesheet" href="main.css">
+    
+    <!--Web fonts-->
+    
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif|Roboto+Condensed:700" rel="stylesheet">
+    
+    <!--Typography-->
+    
+    <link rel="stylesheet" href="typography/bettertext.css">
+    
+    <!--Font-awesome-->
+  
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    
+    <!--Animate css-->
+    
+    <link rel="stylesheet" href="animate/animate.css">
+    
+    <!-- wow.js для анимации при прокрутке-->
+    <script src="js/wow.min.js"></script>
+    <script>new WOW().init();</script> 
+
+</head>
+
+<body>
+
+<!--Header-->
+
+<header class="header-page" id="header">
+    <div class="header-text">Hello, my name is Nikolay Burkov and i am</div>
+    <div class="header-title">FRONT-END WEB DEVELOPER</div>
+    <div class="header-text">creating modern Website and Web Application</div>
+    <a href="#main-info" class="header-arrow__icon"><i class="fa fa-chevron-down animated bounce" aria-hidden="true"></i></a>
+   <div id="upbutton" class="btn-up"> <img src="icons/arrow-up-icon.svg" alt=""></div>
+</header>
+
+<!--Menu-->
+<div class="wrapper-menu" id="wrapper">
+  <div class="container">
+    <a href="#" id="touch-menu">Menu</a>
+     <nav>
+        <ul class="nav clearfix" id="top-nav">
+            <li><a href="#main-info" data-target="anchor">info</a></li>
+            <li><a href="#works-section" data-target="anchor">works</a></li>
+            <li><img src="img/logo-menu.png" alt="Logo menu" class="logo-menu"></li>
+            <li><a href="#tool-section" data-target="anchor">tools</a></li>
+            <li><a href="#contact" data-target="anchor">contact</a></li>
+        </ul>
+     </nav>
+  </div>
+</div>
+
+<!--Info and skills-->
+
+<section class="main-info" id="main-info">
+    <h2>i and my developer skills</h2>
+    <div class="flex-container container">
+        <div class="col-3">
+            <div class="skill-section">
+                <div class="skill-text">
+                    <p class="wow bounceIn" data-wow-offset="200"><span>Adaptive</span> design for all kinds of devices</p>
+                </div>
+                <div class="icon adaptive"><img src="icons/adaptive.svg" alt="" class="wow bounceIn" data-wow-offset="200"></div>
+            </div>
+
+            <div class="skill-section">
+                <div class="skill-text">
+                    <p class="wow bounceIn" data-wow-offset="200">Basic knowledge of <span>javascript</span> <br> <span>JQuery</span> library <br> continuous improvement of JS skills</p>
+                </div>
+                <div class="icon js"><img src="icons/javascript.svg" class="wow bounceIn" data-wow-offset="200" alt=""></div>
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="avatar-hover__mask">
+                <p>From: Russia <br> Years: 21 <br> Study web development since June 2017</p>
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="skill-section">
+                <div class="icon semantic" data-wow-offset="200"><img src="icons/html5.svg" class="wow bounceIn" data-wow-offset="200" alt=""></div>
+                <div class="skill-text">
+                    <p class="wow bounceIn"><span>Semantic</span> layout by HTML5 standards</p>
+                </div>
+            </div>
+            <div class="skill-section">
+                <div class="icon  ps"><img src="icons/photoshop.svg" class="wow bounceIn" data-wow-offset="200" alt=""></div>
+                <div class="skill-text">
+                    <p class="wow bounceIn" data-wow-offset="200">Owning <span>Photoshop</span> at the level required by the layout designer, and higher. Have experience drawing single-page sites</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--Section border-->
+
+<div class="section-border">
+    <div class="section-border__line"></div>
+    <div class="section-border__line"></div>
+    <div class="section-border__icon"></div>
+</div>
+
+<!--My works-->
+
+<section class="works-section" id="works-section">
+<h2>my works</h2>
+<div class="works-preview__text">You can click on this works for view</div>
+<div class="container flex-container__works">
+    <div class="work-section work-section__1 wow fadeInLeft" data-wow-offset="200">
+        <a href="#">
+            <div class="work-hover__mask"><img src="icons/icon-mask.png" alt=""></a>
+        </div>
+    </div>
+
+    <div class="work-section work-section__2">
+        <a href="#">
+            <div class="work-hover__mask"><img src="icons/icon-mask.png" alt=""></a>
+        </div>
+    </div>
+
+    <div class="work-section work-section__3 wow fadeInRight">
+        <a href="#">
+            <div class="work-hover__mask" data-wow-offset="200"><img src="icons/icon-mask.png" alt=""></a>
+        </div>
+    </div>
+
+    <div class="work-section__long">
+        <a href="#">
+            <div class="work-hover__mask"><img src="icons/icon-mask.png" alt=""></div>
+        </a>
+    </div>
+</div>
+</section>
+
+
+<!--Section border-2-->
+
+<div class="section-border">
+    <div class="section-border__line"></div>
+    <div class="section-border__line"></div>
+    <div class="section-border__icon__tools"></div>
+</div>
+
+<!--My tools-->
+
+<section class="tools-section" id="tool-section">
+    <h2>my tools</h2>
+    <div class="container flex-tool__container">
+        <div class="tool-col">
+            <h3>Bootstrap</h3>
+            <div class="tool-logo"><img src="icons/bootstrap-tool-icon.png" alt="tool-icon"></div>
+            <p>I can write on clean CSS, but also i used bootstrap for easy adaptive grid and other good solution of this framework</p>
+        </div>
+        <div class="tool-col">
+            <h3>GIT</h3>
+            <div class="tool-logo tool-logo__git"><img src="icons/git-tool-icon.png" alt="tool-icon"></div>
+            <p>Is a version control system for tracking changes in computer files and coordinating work on those files among multiple people</p>
+        </div>
+        <div class="tool-col">
+            <h3>SASS</h3>
+            <div class="tool-logo"><img src="icons/sass-tool-icon.png" alt="tool-icon"></div>
+            <p>I think this is a good tool for web development which speeds up the process of writing CSS code</p>
+        </div>
+    </div>
+
+    <i class="fa fa-cog fa-spin fa-4x fa-fw"></i>
+
+</section>
+
+<!--Write me banner-->
+
+<div class="banner-write__me">
+    <p>Have a questions?</p>
+    <a href="#contact" class="hvr-shutter-in-horizontal">write me</a>
+</div>
+
+<!--Contact form-->
+
+<section class="contact-form" id="contact">
+    <h2>Drop me a line</h2>
+    <div class="form-container">
+        <form action="get">
+            <input type="text" name="username" placeholder="Name">
+            <input type="text" name="usermail" placeholder="E-mail">
+            <textarea name="usermessage" id="" cols="30" rows="10" placeholder="Message"></textarea>
+            <input type="submit" value="Send message" class="submit">
+        </form>
+<p><span>or</span></p>
+        <div class="social-icon__panel">
+            <a href=" https://www.google.com/intl/ru/gmail/about/"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+            <a href="https://vk.com/id211824220"><i class="fa fa-vk" aria-hidden="true"></i></a>
+            <a href="https://web.telegram.org/#/im"><i class="fa fa-telegram" aria-hidden="true"></i></a>
+        </div>
+    </div>
+</section>
+
+
+<!--Footer-->
+
+<footer class="footer">
+    <p>&#169; 2017 Burkov Nikolay | Images <a href="https://unsplash.com/collections">Unsplash</a> | icons 
+    <a href="https://www.iconfinder.com/search/?q=JS&price=free">Iconfinder</a> & 
+    <a href="http://fontawesome.io/">Font-awesome</a> <i class="fa fa-leaf fa-2x" aria-hidden="true"></i> </p>
+</footer>
+
+   
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script><!--jQuery-->
+<script type="text/javascript" src="js/scroll.js" async></script> <!--Плавный скролл-->
+<script type="text/javascript" src="js/adaptive-menu.js"></script> <!--Адаптивное меню-->
+<script type="text/javascript" src="js/UpButton.js"></script> <!--Кнопка наверх-->
+<script type="text/javascript" src="js/scroll_menu.js"></script> <!-- фиксированное меню при скроле на чистом JS-->
+
+ </body>
+</html>
